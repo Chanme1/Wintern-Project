@@ -1,0 +1,53 @@
+ *{box-sizing: border-box;}
+
+       .body{font-family: Arial; background-color:#32323C; }
+       
+        .contianer
+{
+  display:grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap:10px;
+padding: 16px;
+    
+  
+}
+
+    .form
+        {
+            grid-area: 20/12/5/6;
+            background-color:rgb(105,105,105);
+            color:white;
+            height:400px;
+            width:400px;
+            border-radius:25px;
+            text-align:center;
+           
+
+        }
+       input[type = "text"]
+                {
+                    padding:20px;
+                    margin:5px 0 22px 0;
+                    display:inline-block;
+                    border:none;
+                    background:#f1f1f1;
+                        
+                    }
+input[type = "submit"]
+{
+   background-color:yellow;
+    color: white;
+    padding: 14px 20px;
+    margin:8px 0;
+    border:none;
+    cursor:pointer;
+    color:black;
+    opacity:0.9;
+    text-align:center;
+    
+}
+input[type = text]:focus{
+    
+    background-color:#ddd;
+    outline:none;
+}
