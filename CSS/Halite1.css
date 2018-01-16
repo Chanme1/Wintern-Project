@@ -1,0 +1,32 @@
+
+body
+{
+  background-color:#100F17;
+}
+
+#leaderboard tr:first-child{
+  background:#474951;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color:lightgray;
+}
+
+td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+
+}
+ .leaderboard
+ {
+   color:white;
+   margin-top:200px;
+
+ }
