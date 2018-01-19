@@ -1,3 +1,6 @@
+body{
+  background-color:#100F17;
+}
 
 .container
 {
@@ -9,14 +12,46 @@
   "profile content content"
   "profile footer footer";
   grid-gap: 5px;
-  background-color: #eee;
   width: 99vw;
   height: 98vh;
 }
 
 header {
   grid-area: header;
-  background-color: #9b59b6;
+  height: 50px;
+  background:#252530;
+}
+
+ul{
+  padding:0;
+  list-style:none;
+}
+
+.navigation {
+  display:inline-flex;
+}
+
+li a{
+  color: white;
+  width: 100%;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+li a:hover{
+  color:#ffbe00;
+  background-color: black;
+}
+
+.btn{
+  background-color: #ffbe00;
+  border:none;
+  color:black;
+  padding:10px 10px 5px 10px;
+  display: center;
+  font-size: 16px;
+  border-radius:8px;
+  float: right;
 }
 
 profile{
