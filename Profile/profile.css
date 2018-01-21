@@ -65,6 +65,10 @@ img {
   object-fit: cover;
 }
 
+hr{
+  width: 300px;
+}
+
 .name{
   text-align: center;
   color:#D09D24;
@@ -98,6 +102,7 @@ span{
   padding:10px 10px 5px 10px;
   font-size: 16px;
   border-radius:8px;
+  margin: auto;
 }
 
 content{
