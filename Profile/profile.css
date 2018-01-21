@@ -5,7 +5,7 @@ body{
 .container
 {
   display: grid;
-  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-rows: 0.7fr 5fr 1fr;
   grid-template-columns: 3fr 5fr 3fr;
   grid-template-areas:
   "header header header"
@@ -56,12 +56,77 @@ li a:hover{
 
 profile{
   grid-area: profile;
-  background-color: #3498db;
+  text-align: center;
+}
+
+img {
+  margin: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.name{
+  text-align: center;
+  color:#D09D24;
+}
+
+.information{
+  text-align: center;
+  font-size: 19px;
+  color: #979797;
+}
+
+span{
+  color:#D09D24;
+}
+
+.ranking{
+  color: white;
+  position: relative;
+}
+
+.stats {
+  word-spacing: 60px;
+  font-size: 18px;
+  color: #D4D4D4;
+}
+
+.button{
+  background-color: #ffbe00;
+  border:none;
+  color:black;
+  padding:10px 10px 5px 10px;
+  font-size: 16px;
+  border-radius:8px;
 }
 
 content{
   grid-area: content;
-  background-color: #2ecc71;
+}
+
+#theteam tr:first-child{
+  background:#474951;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color:lightgray;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: center;
+  padding: 16px;
+}
+
+.leaderboard
+{
+  color:white;
+  margin-top:200px;
+  margin-left:50px;
+  margin-right:50px;
 }
 
 footer{
