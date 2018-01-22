@@ -2,42 +2,49 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="profile.css">
+  <link rel="stylesheet" type="text/css" href="navbar.css">
+  <link rel="stylesheet" type="text/css" href="user.css">
+  <link rel="stylesheet" type="text/css" href="content.css">
 </head>
 
 <body>
   <div class="container">
     <header>
       <ul class = "navigation">
-        <li><a href = "#LEARN">LEARN</a></li>
-        <li><a href = "#PLAY">PLAY</a></li>
-        <li><a href = "#LEADERBOARD">LEADERBOARD</a></li>
-        <li><a href = "#TEAMS">TEAMS</a></li>
-        <li><a href = "#LEAGUES">LEAGUES</a></li>
-        <li><a href = "#EVENTS& HACKATHONS">EVENTS &amp; HACKTHONS</a></li>
-        <li><a href = "#FORUMS">FORUMS</a></li>
+        <li class = "nav"><a href = "#LEARN">LEARN</a></li>
+        <li class = "nav"><a href = "#PLAY">PLAY</a></li>
+        <li class = "nav"><a href = "#LEADERBOARD">LEADERBOARD</a></li>
+        <li class = "nav"><a href = "#TEAMS">TEAMS</a></li>
+        <li class = "nav"><a href = "#LEAGUES">LEAGUES</a></li>
+        <li class = "nav"><a href = "#EVENTS& HACKATHONS">EVENTS &amp; HACKTHONS</a></li>
+        <li class = "nav"><a href = "#FORUMS">FORUMS</a></li>
       </ul>
-      <input  class= "btn" type = "submit" value = "SUMBIT A BOT" />
+      <input  class= "submit" type = "submit" value = "SUMBIT A BOT" />
     </header>
 
     <profile>
       <div class="profile">
         <hr><img src="planet.jpg" alt="profile" height="230px" width="230px">
-        <div class = "text">
-          <h1 class ="name">Team Galaxy</h1>
-          <p class="information">
-            Bots in <span>C++</span>
-            <br> Speak <span>English</span></br>
-          </p><hr>
-          <p class ="ranking">
-            <img src="badge.png" alt="badge" height="25px" width="25px" style="text-align:center; display: inline-block;">
-            NO RANK, BRONZE TIER </p>
-          <p class = "stats"> Rank Bots Games </p>
-          <h1 style="word-spacing:85px; color: white;"> 0 0 0 </h1>
-        </div>
-        <button class="button">INVITE</button><hr>
+        <h1 class ="name"> Team Galaxy </h1>
+        <p class="information">
+          Bots in <lang>C++</lang>
+          <br> Speak <lang>English</lang></br>
+        </p><hr>
+        <p class ="ranking">
+          <img src="badge.png" alt="badge" height="25px" width="25px">
+          NO RANK, BRONZE TIER </p>
+          <p class = "stats">Rank Bots Games</p>
+          <h1 style="word-spacing:75px; color: white; margin-top:0;">0 0 0</h1>
+          <button class="invite">INVITE</button><hr>
       </div>
     </profile>
+
     <content>
+      <ul class = "navigation" style="border-top: 1px solid white; border-bottom: 1px solid white; height: 50px; margin-left:85px;">
+        <li class = "contentnav"><a href = "#Members">TEAM MEMBERS</a></li>
+        <li class = "contentnav"><a href = "#Logs">GAMES & LOGS</a></li>
+        <li class = "contentnav"><a href = "#Analysis">ANALYSIS</a></li>
+      </ul>
       <table border= '1' width='100%' id='theteam'>
         <tr>
           <th>Member</th>

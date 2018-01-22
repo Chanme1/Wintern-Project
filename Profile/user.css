@@ -1,0 +1,48 @@
+.profile{
+  margin: auto;
+  display: block;
+}
+
+img {
+  object-fit: cover;
+  text-align:center;
+  display: inline-block;
+}
+
+hr{
+  width: 300px;
+}
+
+.name{
+  text-align: center;
+  color:#D09D24;
+}
+
+.information{
+  text-align: center;
+  font-size: 19px;
+  color: #979797;
+}
+
+lang{
+  color:#D09D24;
+}
+
+.ranking{
+  color: white;
+  position: relative;
+}
+
+.stats {
+  word-spacing: 55px;
+  font-size: 18px;
+  color: #D4D4D4;
+}
+
+.invite{
+  background-color: #ffbe00;
+  border:none;
+  color:black;
+  padding:10px 10px 5px 10px;
+  font-size: 16px;
+}

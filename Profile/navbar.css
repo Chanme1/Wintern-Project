@@ -1,0 +1,41 @@
+ul{
+  padding:0;
+  list-style:none;
+}
+
+.navigation {
+  display:inline-flex;
+}
+
+li a{
+  color: grey;
+  width: 100%;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+li a:hover{
+  color:white;
+}
+
+.contentnav a:active{
+  background-color: rgba(247, 177, 2, 0.5);
+  color: orange;
+}
+
+.nav a:active{
+  background-color: rgba(247, 177, 2, 0.5);
+  color: orange;
+}
+
+
+.submit{
+  background-color: #ffbe00;
+  border:none;
+  color:black;
+  padding:10px 10px 5px 10px;
+  display: center;
+  font-size: 16px;
+  border-radius:8px;
+  float: right;
+}

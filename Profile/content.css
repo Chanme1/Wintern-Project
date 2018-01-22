@@ -1,0 +1,29 @@
+.contentnav {
+  margin: auto 65px;
+}
+
+#theteam tr:first-child{
+  background:#474951;
+}
+
+table {
+  margin: 20px 80px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  background-color:lightgray;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: center;
+  padding: 16px;
+}
+
+.leaderboard
+{
+  color:white;
+  margin-top:200px;
+  margin-left:50px;
+  margin-right:50px;
+}
