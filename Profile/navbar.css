@@ -28,7 +28,6 @@ li a:hover{
   color: orange;
 }
 
-
 .submit{
   background-color: #ffbe00;
   border:none;
@@ -37,5 +36,40 @@ li a:hover{
   display: center;
   font-size: 16px;
   border-radius:8px;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 6px;
+}
+
+.dropdown{
+  position: relative;
   float: right;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.dropdown-content {
+  right: 0;
+  background-color: #252530;
+  display:none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+    color: grey;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
