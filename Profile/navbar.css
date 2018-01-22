@@ -5,6 +5,7 @@ ul{
 
 .navigation {
   display:inline-flex;
+  text-transform: uppercase;
 }
 
 li a{
@@ -46,6 +47,7 @@ li a:hover{
   float: right;
   margin-right: 20px;
   margin-top: 5px;
+  text-transform: uppercase;
 }
 
 .dropdown-content {
