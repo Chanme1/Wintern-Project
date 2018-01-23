@@ -1,8 +1,8 @@
- *{box-sizing: border-box;}
+  *{box-sizing: border-box;}
 
        .body{font-family: Arial; background-color:#32323C; }
        
-        .contianer
+.contianer_two
 {
   display:grid;
   grid-template-columns: auto auto auto auto auto auto;
@@ -24,18 +24,47 @@ padding: 16px;
            
 
         }
+
        input[type = "text"]
-                {
-                    padding:20px;
-                    margin:5px 0 22px 0;
+                  {
+                    padding: 12px;
+                    margin:50px 85px 8px 2px;
+                    height:2px;
+                     width: 40%;
                     display:inline-block;
                     border:none;
-                    background:#f1f1f1;
-                        
-                    }
+                    border-radius: 5px;
+                    background:#f1f1f1;    
+
+}
+
+select {
+    margin:0;
+    border: 1px solid #111;
+    background:transparent;
+    padding: -1px 25px 15px 5px;
+    font-size:12px;
+    color: grey;
+    border:1px solid #ccc;
+    height:25px;
+    width: 40%;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    background:url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiZx_C26e7YAhVJoVMKHde5AKgQjRwIBw&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F768159%2Farrow_arrow_down_button_down_go_sort_down_icon&psig=AOvVaw1aOOE4rEqN7KfICpwnU2aF&ust=1516822240749096) 50%/ 15% no-repeat #eee;
+}
+
+
+@media screen and (min-width:0\0){
+    select{
+        background:none\9;
+        padding:5px\9;
+    }
+}
+
 input[type = "submit"]
 {
-   background-color:yellow;
+   background-color:#ffbe00;
     color: white;
     padding: 14px 20px;
     margin:8px 0;
