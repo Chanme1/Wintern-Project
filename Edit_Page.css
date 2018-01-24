@@ -1,0 +1,262 @@
+body{
+  background-color:#100F17;
+}
+
+.container
+{
+  display: grid;
+  grid-template-rows: 0.7fr 5fr 1fr;
+  grid-template-columns: 3fr 5fr 3fr;
+  grid-template-areas:
+  "header header header"
+  "profile content content"
+  "profile footer footer";
+  grid-gap: 5px;
+  width: 99vw;
+  height: 98vh;
+}
+
+header {
+  grid-area: header;
+  height: 50px;
+  background:#252530;
+}
+
+profile{
+  grid-area: profile;
+  text-align: center;
+}
+
+content{
+  text-align: left;
+  grid-area: content;
+}
+
+footer{
+  grid-area: footer;
+  background-color: #f1c40f;
+}
+
+.contentnav {
+  margin: auto 65px;
+}
+
+
+#theteam tr:first-child{
+  background:#474951;
+}
+
+table {
+  margin: 20px 80px;
+  position:absolute;
+    top: 240px;
+    left:450px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+  background-color:lightgray;
+}
+.change
+{
+     margin: 20px 80px;
+  position:absolute;
+    top: 240px;
+    left:450px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+  
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: center;
+  padding: 12px;
+}
+
+.leaderboard
+{
+  color:white;
+  margin-top:200px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.Title{
+  color: lightgrey;
+  margin-left: 75px;
+
+}
+.profile{
+  margin: auto;
+  display: block;
+}
+
+img {
+  object-fit: cover;
+  text-align:center;
+  display: inline-block;
+}
+
+hr{
+  width: 300px;
+}
+
+.name{
+  text-align: center;
+  color:#D09D24;
+}
+
+.information{
+  text-align: center;
+  font-size: 19px;
+  color: #979797;
+}
+
+lang{
+  color:#D09D24;
+}
+
+.ranking{
+  color: white;
+  position: relative;
+}
+
+.stats {
+  word-spacing: 55px;
+  font-size: 18px;
+  color: #D4D4D4;
+}
+
+.invite{
+  background-color: #ffbe00;
+  border:none;
+  color:black;
+  padding:10px 10px 5px 10px;
+  font-size: 16px;
+}
+ul{
+  padding:0;
+  list-style:none;
+}
+
+.navigation {
+  display:inline-flex;
+  text-transform: uppercase;
+  position: absolute;
+ top:150px;
+left:450px;
+}
+
+li a{
+  color: grey;
+  width: 100%;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+li a:hover{
+  color:white;
+}
+
+.contentnav a:active{
+  background-color: rgba(247, 177, 2, 0.5);
+  color: orange;
+}
+
+.nav a:active{
+  background-color: rgba(247, 177, 2, 0.5);
+
+}
+
+.submit{
+  background-color: #ffbe00;
+  border:none;
+  color:black;
+  padding:10px 10px 5px 10px;
+  display: center;
+  font-size: 16px;
+  border-radius:8px;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 6px;
+}
+
+
+.contianer_two
+{
+  display:grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap:10px;
+padding: 16px;
+    
+  
+}
+
+    .form
+        {
+            grid-area: 20/10/5/6;
+            background-color:lightgrey;
+            color:Black;
+            height:300px;
+            width:400px;
+            border-radius:25px;
+            text-align:center;
+           
+
+        }
+
+       input[type = "text"]
+                  {
+                    padding: 12px;
+                    margin:50px 85px 8px 2px;
+                    height:2px;
+                     width: 40%;
+                    display:inline-block;
+                    border:none;
+                    border-radius: 5px;
+                    background:#f1f1f1;    
+
+}
+select {
+    margin:0;
+    border: 1px solid #111;
+    background:transparent;
+    padding: -1px 25px 15px 5px;
+    font-size:12px;
+    color: grey;
+    border:1px solid #ccc;
+    height:25px;
+    width: 40%;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    background:url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiZx_C26e7YAhVJoVMKHde5AKgQjRwIBw&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F768159%2Farrow_arrow_down_button_down_go_sort_down_icon&psig=AOvVaw1aOOE4rEqN7KfICpwnU2aF&ust=1516822240749096) 50%/ 15% no-repeat #eee;
+}
+
+
+@media screen and (min-width:0\0){
+    select{
+        background:none\9;
+        padding:5px\9;
+    }
+}
+
+input[type = "submit"]
+{
+   background-color:#ffbe00;
+    color: white;
+    padding: 10px 15px;
+    margin:0px ;
+    border:none;
+    cursor:pointer;
+    color:black;
+    opacity:0.9;
+    text-align:center;
+    
+}
+input[type = text]:focus{
+    
+    background-color:#ddd;
+    outline:none;
+}
