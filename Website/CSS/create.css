@@ -1,0 +1,76 @@
+*{box-sizing: border-box;}
+
+h2{
+  text-align: center;
+  color: lightgrey;
+}
+
+.form{
+  background-color:rgb(105,105,105);
+  color:white;
+  height:350px;
+  width:400px;
+  border-radius:25px;
+  text-align:center;
+}
+
+.form_team{
+  background-color: #ffbe00;
+  color:black;
+  padding:10px 5px 5px 5px;
+  font-size: 16px;
+  border-radius:8px;
+  border: none;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.info {
+    position: relative;
+    display: inline-block;
+}
+
+.info .infotext {
+    visibility: hidden;
+    font-size: 15px;
+    width: 1000%;
+    background-color: black;
+    color: #fff;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.info:hover .infotext {
+    visibility: visible;
+}
+
+select {
+  margin:0;
+  border: 1px solid #111;
+  background:transparent;
+  padding: -1px 25px 15px 5px;
+  font-size:12px;
+  color: grey;
+  border:1px solid #ccc;
+  height:25px;
+  width: 40%;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  background:url(https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiZx_C26e7YAhVJoVMKHde5AKgQjRwIBw&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F768159%2Farrow_arrow_down_button_down_go_sort_down_icon&psig=AOvVaw1aOOE4rEqN7KfICpwnU2aF&ust=1516822240749096) 50%/ 15% no-repeat #eee;
+}
+
+
+@media screen and (min-width:0\0){
+  select{
+    background:none\9;
+    padding:5px\9;
+  }
+}
+
+input[type = text]:focus{
+  background-color:#ddd;
+  outline:none;
+}

@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
-    
+
     <head>
-        <link rel="stylesheet" type="text/css" href="halite_team.css">      
+        <link rel="stylesheet" type="text/css" href="create_team.css">      
         <script>
-            
+
 var team = document.getElementsByName("Team_name");
 var teamForm = document.getElementsByName("teamForm");
 
-            
+
 
 function Validation() { "use strict"; if (document.form.teamForm.Team_name.value===null)
         {
-         
+
             return false;
         }
-                        
-    else 
+
+    else
       {
         return true;
        }
@@ -30,29 +30,29 @@ window.onload = function Check()
         var input_team_name = document.getElementById("team_name");
             input_team_name.required = "true";
             input_team_name.pattern = "[a-zA-Z0-9]+";
-            input_team_name.title = "Please enter a team name"; 
-         
-    
-    
-    
-    
+            input_team_name.title = "Please enter a team name";
+
+
+
+
+
             };
-            
+
         </script>
-    </head> 
-    
+    </head>
+
     <body class = "body">
-      
+
 <div class = "contianer_two">
         <div class = "form" id="form">
          <form id= TeamForm name = "teamForm" onsubmit = "return Validation()">
-             
+
             <label> Team Name:</label>
      <input id = "team_name" type = "text" name = "Team_name" placeholder = "Enter Team Name"/><br /><br /><br />
-             
+
             <lable>Programming Language: </lable>
             <select id = "prog_language" name = "prog_language">
-              
+
                 <option value = "C++">C++</option>
                 <option value = "Java">Java</option>
                 <option value = "C#">C#</option>
@@ -61,7 +61,7 @@ window.onload = function Check()
                 <option value = "Python">Python</option>
               <option value = "  " selected>-----------Select----------</option>
              </select><br/><br /><br /><br />
-             
+
              <label>Spoken Language:</label>
              <select id = "spoken_language" name = "spoken_language" placeholder = "--">
              <option value = "English">English </option>
@@ -71,15 +71,14 @@ window.onload = function Check()
              <option value = "German">German</option>
                  <option value = " " selected> -----------Select----------</option>
              </select><br /><br /><br /><br />
-             
-         
+
+
                <input  type = "submit" name = "create_team"  value = "Create Team"/>
                  </form>
-     
+
 </div>
-        
+
         </div>
     </body>
-    
-</html> 
-    
+
+</html>
