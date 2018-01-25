@@ -8,7 +8,7 @@
       </p>
       <br><a href="create.php" class="create_button">Create a Team</a></br><br>
       <h2> Join a Team </h2>
-      <p> Not interested in creating a team? <br> Join one the teams below!</br> </p>
+      <p> Not interested in creating a team? <br> Join one of the teams below!</br> </p>
       <hr = class = "leadbreak">
     </div>
     <div class = "Leaderboard">
@@ -16,7 +16,7 @@
       <table border= '1' width='98%' id='leaderboard'>
         <tr>
           <th>Rank</th>
-          <th>Player</th>
+          <th>Team</th>
           <th>Rating</th>
           <th>Spoken Language</th>
           <th>Language</th>
@@ -38,7 +38,7 @@
           <td>Spanish</td>
           <td>Java</td>
           <td>16 hours ago v600</td>
-          <td><button class="Join">Join</button></td>
+          <td></td>
         </tr>
         <tr>
           <td>3</td>
@@ -47,7 +47,7 @@
           <td>English</td>
           <td>Rust</td>
           <td>1 day ago v42</td>
-          <td> </td>
+          <td><a href = "non-mem.php"><button class="Join">Join</button></td></a>
         </tr>
         <tr>
           <td>4</td>
@@ -65,7 +65,7 @@
           <td>English</td>
           <td>C++</td>
           <td>4 days ago v175</td>
-          <td><button class="Join">Join</button></td>
+          <td><a href = "profile.php"><button class="Join">Join</button></td></a>
         </tr>
         <tr>
           <td>6</td>
@@ -74,7 +74,7 @@
           <td>English</td>
           <td>JavaScript</td>
           <td>11 days ago v42</td>
-          <td> </td>
+          <td></td>
         </tr>
         <tr>
           <td>7</td>

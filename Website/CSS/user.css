@@ -1,0 +1,56 @@
+.profile{
+  margin: auto;
+  display: block;
+}
+
+img {
+  object-fit: cover;
+  text-align:center;
+  display: inline-block;
+}
+
+hr{
+  width: 300px;
+}
+
+.name{
+  text-align: center;
+  color:#D09D24;
+}
+
+.information{
+  text-align: center;
+  font-size: 19px;
+  color: #979797;
+}
+
+lang{
+  color:#D09D24;
+}
+
+.ranking{
+  color: white;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.stats {
+  word-spacing: 55px;
+  font-size: 18px;
+  color: #D4D4D4;
+}
+
+.c_buttons{
+  background-color: #ffbe00;
+  border:none;
+  color:black;
+  border-radius: 5px;
+  padding:10px 25px 10px 25px;
+  margin-right: 18px;
+  font-size: 16px;
+}
+
+.edit{
+  color: #ffbe00;
+  font-size: 18px;
+}

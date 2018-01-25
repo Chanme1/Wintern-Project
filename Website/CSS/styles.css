@@ -1,6 +1,7 @@
 body{
   background-color:#100F17;
 }
+
 .topnav {
     overflow: hidden;
     background:#252530;
@@ -23,13 +24,6 @@ body{
 .topnav a:hover {
     color:white;
 }
-
-/* Add an active class to highlight the current page */
-.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;

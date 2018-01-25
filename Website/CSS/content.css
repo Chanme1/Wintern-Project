@@ -1,0 +1,62 @@
+#theteam tr:first-child{
+  background:#474951;
+}
+
+table {
+  margin: 20px 80px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  background-color:lightgray;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: center;
+  padding: 16px;
+}
+
+.leaderboard
+{
+  color:white;
+  margin-top:200px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.Title{
+  color: lightgrey;
+  margin-left: 85px;
+}
+
+.invite{
+  background-color: #ffbe00;
+  border:none;
+  color:black;
+  border-radius: 5px;
+  padding:10px 25px 10px 25px;
+  margin-left: 45%;
+  font-size: 16px;
+}
+
+.save{
+  background-color: #ffbe00;
+  border:none;
+  color:black;
+  border-radius: 5px;
+  padding:10px 25px 10px 25px;
+  margin-left: 60%;
+  margin-top: -10%;
+  font-size: 16px;
+}
+
+.join{
+  background-color: #ffbe00;
+  border:none;
+  color:black;
+  border-radius: 5px;
+  padding:10px 25px 10px 25px;
+  margin-left: 60%;
+  margin-top: -20%;
+  font-size: 16px;
+}

@@ -9,7 +9,7 @@
 			<a href="#forums">Forums</a>
 			<button class="submit">Submit a bot</button>
 			<div class = "dropdown">
-				<img src = "profile.png" width = "38" height="38">
+				<img src = "images/profile.png" width = "38" height="38">
 				<div class="dropdown-content">
 					<a href="#">View Profile</a>
 					<a href="#">Team</a>
