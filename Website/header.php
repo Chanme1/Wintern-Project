@@ -12,7 +12,7 @@
 				<img src = "images/profile.png" width = "38" height="38">
 				<div class="dropdown-content">
 					<a href="#">View Profile</a>
-					<a href="#">Team</a>
+					<a href="profile.php">Team</a>
 					<a href="#">Edit Profile</a>
 					<a href="#">Settings</a>
 					<a href="#">Sign Out</a>

@@ -31,19 +31,19 @@
           <th>Rank</th>
         </tr>
         <tr>
-          <th></th>
-          <th></th>
-          <th></th>
+          <th>Jerry</th>
+          <th>35.8</th>
+          <th>Leader</th>
         </tr>
         <tr>
-          <th></th>
-          <th></th>
-          <th></th>
+          <th>Beth</th>
+          <th>30.3</th>
+          <th>Member</th>
         </tr>
         <tr>
-          <th></th>
-          <th></th>
-          <th></th>
+          <th>Summer</th>
+          <th>28.3</th>
+          <th>Member</th>
         </tr>
         <tr>
           <th></th>

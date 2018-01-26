@@ -36,7 +36,7 @@
           </tr>
           <tr>
             <td><a href = "#Delete"><img height = "25px" width = "25px" src = "images/delete.png"></a>
-            <td>chanme1</td>
+            <td>coolaid</td>
             <td><select>
               <option value="Leader">Leader</option>
               <option value="Member">Member</option>
@@ -44,7 +44,7 @@
           </tr>
           <tr>
             <td><a href = "#Delete"><img height = "25px" width = "25px" src = "images/delete.png"></a>
-            <td>chanme1</td>
+            <td>vitamin0</td>
             <td><select>
               <option value="Leader">Leader</option>
               <option value="Member" selected="selected">Member</option>
@@ -52,7 +52,7 @@
           </tr>
           <tr>
             <td><a href = "#Delete"><img height = "25px" width = "25px" src = "images/delete.png"></a>
-            <td>chanme1</td>
+            <td>v8</td>
             <td><select>
               <option value="Leader">Leader</option>
               <option value="Member" selected="selected">Member</option>

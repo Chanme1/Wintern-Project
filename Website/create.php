@@ -34,7 +34,7 @@
           <option value = "German">German</option>
           <option selected disabled>Select</option>
         </select><br/><br/><br/><br/>
-        <button class="form_team" onclick="Validation()">Create Team</button>
+        <a href="profile.php" class="form_team" onclick="Validation()">Create Team</a>
       </form>
     </div>
   </div>
