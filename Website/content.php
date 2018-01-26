@@ -13,19 +13,19 @@
       <th>Rank</th>
     </tr>
     <tr>
-      <th>coolaid</th>
+      <th>Mars</th>
       <th>30.7</th>
       <th>Leader</th>
     </tr>
     <tr>
-      <th>vitamin0</th>
-      <th>25.2</th>
-      <th>Member</th>
+      <th></th>
+      <th></th>
+      <th></th>
     </tr>
     <tr>
-      <th>v8</th>
-      <th>15.8</th>
-      <th>Member</th>
+      <th></th>
+      <th></th>
+      <th></th>
     </tr>
     <tr>
       <th></th>
